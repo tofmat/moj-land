@@ -344,9 +344,13 @@ export default function Home() {
                             {" "}
                             <div className="">
                                 <h1 className="font-[700]">Home</h1>
-                                <p className="pt-3 text-[#CED6DE]">Markets</p>
-                                <p className="pt-2 text-[#CED6DE]">FAQs</p>
-                                <p className="pt-2 text-[#CED6DE]">
+                                <p className="pt-3 text-[#CED6DE] cursor-pointer">
+                                    Markets
+                                </p>
+                                <p className="pt-2 text-[#CED6DE] cursor-pointer">
+                                    FAQs
+                                </p>
+                                <p className="pt-2 text-[#CED6DE] cursor-pointer">
                                     Help Center
                                 </p>
                             </div>
@@ -365,10 +369,10 @@ export default function Home() {
                             </div>
                             <div className="">
                                 <h1>Legal</h1>
-                                <p className="pt-3 text-[#CED6DE]">
+                                <p className="pt-3 text-[#CED6DE] cursor-pointer">
                                     Privacy policy
                                 </p>
-                                <p className="pt-2 text-[#CED6DE]">
+                                <p className="pt-2 text-[#CED6DE] cursor-pointer">
                                     Terms of use
                                 </p>
                             </div>
@@ -427,6 +431,7 @@ export default function Home() {
                                     size="20"
                                     color="#8C97A7"
                                     variant="Bold"
+                                    className="cursor-pointer"
                                 />
                             </div>
                             <div>
@@ -434,6 +439,7 @@ export default function Home() {
                                     size="20"
                                     color="#8C97A7"
                                     variant="Bold"
+                                    className="cursor-pointer"
                                 />
                             </div>
                         </div>
